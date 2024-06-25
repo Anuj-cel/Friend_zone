@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <style>
-     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
-body {
-    height: 100vh;
-    background-image: url("https://github.com/Anuj-cel/Friend_zone/blob/main/images/friend-zone.jpg?raw=true");
+.main {
+   
+    height:100vh ;
+    background-image: url("images/friend-zone.jpg");
     background-position-x: right;
 
     background-repeat: no-repeat;
+    min-height: 800px;
 }
 
 .nav {
@@ -70,7 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80vh;
+    height: 80%;
 }
 
 .content1 {
@@ -88,12 +91,15 @@ body {
 }
 
 @media screen and (max-width:1242px) {
-   .content{
-    height: 50vh;
+  .main{
+   
+  }
+    .content{
+   
    }
     .content1 {
-        width: 20%;
-        font-size: 26px;
+        width: 42%;
+        /* font-size: 26px; */
     }
 
     .content2 {
@@ -103,8 +109,8 @@ body {
 
 @media screen and (max-width:910px) {
     .content1 {
-        width: 26%;
-        font-size: 25px;
+        width: 42%;
+        /* font-size: 25px; */
     }
 
     .content2 {
@@ -116,11 +122,12 @@ body {
     .content {
         text-align: center;
         align-items: center;
+        height: 60%;
     }
 
     .content1 {
-        width: 39%;
-        font-size: 25px;
+        width: 64%;
+        /* font-size: 25px; */
         margin: 0;
        
     }
@@ -136,23 +143,23 @@ body {
 
 }
 .nav {
-
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: column;
-}
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+   height: 146px;
+  }
 .logo{
 margin: 0;
 }
-} 
+}
 </style>
 <body>
 
     <div class="main">
         <nav class="nav">
             <div class="logo">
-                <img src="https://raw.githubusercontent.com/Anuj-cel/Friend_zone/0058857664036e4b4357d13d5aff6960c977e60f/images/friend-zonelogo.png">
+                <img src="images/friend-zonelogo.png">
             </div>
             <div class="section">
                 <span>About</span>
